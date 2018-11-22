@@ -1,0 +1,39 @@
+<header>
+    <h1>Rock Paper Scissors PWA</h1>
+</header>
+
+<div class="score-board">
+    <div id="user-label" class="badge">
+        {{username}}
+    </div>
+    <div id="comp-label" class="badge">
+        Tiwa
+    </div>
+    <span #userscore id="user-score">{{userScore}}</span>:<span #compscore id="comp-score">{{computerScore}}</span>
+</div>
+
+<div class="result" *ngIf="show">
+    <p>{{result_div }}</p>
+
+</div>
+
+<div class="choices">
+    <div #r id="r" class="choice">
+        👊
+    </div>
+    <div #p id="p" class="choice">
+        🤚
+    </div>
+    <div #s id="s" class="choice">
+        🖖
+    </div>
+</div>
+
+<p id="action">
+    Make your move
+</p>
+
+
+<div class="reset">
+    <button (click)="rest()">RESET</button>
+</div>

@@ -1,0 +1,43 @@
+header {
+    background-color: white;
+}
+
+header>h1 {
+    color: #24272e;
+    text-align: center;
+    padding: 20px;
+}
+
+.login {
+    border: 1px solid white;
+    margin: 120px auto 30px auto;
+    width: 200px;
+}
+
+input {
+    height: 50px;
+    width: 200px;
+    background-color: #24272e;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+}
+
+.button {
+    width: 150px;
+    margin: 50px auto;
+}
+
+button {
+    width: 144px;
+    padding: 3px;
+    color: #24272e;
+    height: 30px;
+}
+
+.username {
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}

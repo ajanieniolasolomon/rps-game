@@ -1,0 +1,93 @@
+header {
+    background: white;
+    padding: 20px;
+}
+
+header>h1 {
+    text-align: center;
+    color: #24272e;
+}
+
+.score-board {
+    border: 3px solid white;
+    width: 200px;
+    margin: 20px auto;
+    color: white;
+    font-size: 46px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.badge {
+    background: #E2584D;
+    color: white;
+    font-size: 14px;
+    padding: 2px 10px;
+}
+
+.win {
+    border: 4px soild green;
+}
+
+#user-label {
+    position: absolute;
+    top: 20px;
+    left: -25px;
+}
+
+#comp-label {
+    position: absolute;
+    top: 20px;
+    right: -25px;
+}
+
+.result {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+.result>p {
+    text-align: center;
+}
+
+.choices {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.choice {
+    display: inline-block;
+    font-size: 50px;
+    border: 4px dashed white;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 25px;
+    transition: all 0.3s ease;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background: gray;
+}
+
+#action {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.reset {
+    width: 150px;
+    margin: 50px auto;
+}
+
+button {
+    width: 144px;
+    padding: 3px;
+    color: #24272e;
+    height: 30px;
+}
